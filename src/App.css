@@ -1,0 +1,107 @@
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #05292e;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.header {
+  height: 372px;
+  width: 1440px;
+  left: -8px;
+  top: -1px;
+  border-radius: 0px;
+  background-image: url(../img/header.png);
+  background-repeat: no-repeat;
+}
+
+.logo {
+  position: absolute;
+  width: 454px;
+  height: 176px;
+  left: 493px;
+  top: 48px;
+}
+
+.search-character {
+  position: absolute;
+  width: 892px;
+  height: 339px;
+  left: 50%;
+  top: 40%;
+  right: 50%;
+  margin-left: -13%;
+}
+
+input {
+  width: 40rem;
+  height: 2rem;
+  border-radius: 8px;
+  font-size: 3rem;
+  border: #9cceea solid 2px;
+  padding: 3rem;
+}
+button {
+  height: 4.5rem;
+  width: 8rem;
+  border-radius: 8px;
+  margin-left: 1 0px;
+  background-color: #9cceea;
+  margin-left: 5%;
+  margin-top: 2rem;
+}
+
+button:hover {
+  background-color: chartreuse;
+}
+
+.character-location {
+  background-color: #05292e;
+  padding: 10rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1.5fr);
+  grid-template-rows: 0.15fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  color: white;
+  position: absolute;
+  width: 890px;
+  height: 126px;
+  left: 275px;
+  top: 404px;
+}
+
+.all-resident {
+  padding-top: 5rem;
+}
+
+.allCards {
+ padding-top: 35rem;
+ display: flex;
+ flex-direction: row;
+ gap: 2rem;
+}
+
+.cardContainer {
+  z-index: 52;
+  text-align: center;
+  /*padding-top: -35rem;*/
+  color: white;
+  border: 3px solid lawngreen;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+.cardImg {
+  width: 275px;
+  height: 275px;
+}
