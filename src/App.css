@@ -20,7 +20,7 @@ body {
   left: -8px;
   top: -1px;
   border-radius: 0px;
-  background-image: url(../img/header.png);
+  background-image: url(../img/5555.webp);
   background-repeat: no-repeat;
 }
 
@@ -104,4 +104,24 @@ button:hover {
 .cardImg {
   width: 275px;
   height: 275px;
+  border-radius: 50%;
+  border: 2px solid black;
+  box-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;
 }
+
+.btn-neon {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #fff;
+  letter-spacing: 4px;
+  font-size: 24px;
+}
+
+.btn-neon:hover {
+  background: lawngreen;
+  color: black;
+  box-shadow: 0 0 10px lawngreen, 0 0 40px lawngreen, 0 0 80px lawngreen;
+}
+
+
