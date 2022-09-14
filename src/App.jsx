@@ -23,10 +23,6 @@ function App() {
   return (
     <div className="App">
     <div className="header">
-      <div className="logo">
-        <img src="../img/logo.png" alt="rick and morty logo" />
-      </div>
-
       <div className="search-character">
         <input
           name="name"
