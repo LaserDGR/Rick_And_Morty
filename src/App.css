@@ -54,6 +54,11 @@ input {
   padding: 3rem;
   box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
 }
+
+input:hover {
+  box-shadow: 0 0 10px cyan, 0 0 40px cyan, 0 0 80px cyan;
+}
+
 button {
 
   height: 4.5rem;
@@ -73,7 +78,7 @@ button:hover {
 
 .character-location {
  
-  background-color: #05292e;
+  background:transparent;
   padding: 10rem;
   display: grid;
   grid-template-columns: repeat(4, 1.5fr);
@@ -87,6 +92,10 @@ button:hover {
   left: 175px;
   top: 404px;
   box-shadow: 0 0 10px chartreuse, 0 0 40px chartreuse, 0 0 80px chartreuse;
+}
+
+.character-location:hover {
+  box-shadow: 0 0 10px purple, 0 0 40px purple, 0 0 80px purple;
 }
 
 .all-resident {
